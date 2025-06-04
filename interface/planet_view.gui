@@ -66,10 +66,10 @@ guiTypes = {
 	}
 	containerWindowType = {
 		name = "planet_view"
-		size = { width = 900 height = 880 }
+		size = { width = 900 height = 710 }
 		if_scaled_resolution = {
 			min_height = 1440
-			size = { width = 900 height = 1020 }
+			size = { width = 900 height = 850 }
 		}
 		position = { x = 35 y = -91 }
 		if_scaled_resolution = {
@@ -1199,7 +1199,7 @@ guiTypes = {
 				}
 				containerWindowType = {
 					name = "districts_grid_window"
-					size = { width = -10 height = 350 }
+					size = { width = -10 height = 180 }
 					position = { x = 10 y = -10 }
 					orientation = lower_left
 					origo = lower_left
@@ -1213,12 +1213,12 @@ guiTypes = {
 					gridBoxType = {
 						name = "districts_grid_box"
 						position = { x = 5 y = 6 }
-						size = { width = 870 height = 1204 }
+						size = { width = 870 height = 140 }
 						format = "UPPER_LEFT"
 						slotSize = { width = 288 height = 172 }
 						add_horizontal = yes
 						max_slots_horizontal = 3
-						#max_slots_vertical = 1
+						max_slots_vertical = 1
 					}
 				}
 				containerWindowType = {
@@ -1607,7 +1607,7 @@ guiTypes = {
 				smoothListboxType = {
 					name = "deposits_list"
 					position = { x = 10 y = 45 }
-					size = { x = 430 y = 440 }
+					size = { x = 430 y = 270 }
 					scrollbarType = "standardlistbox_slider_thick"
 					borderSize = { x = 0 y = 0 }
 					offset = { x = -3 y = 0 }
@@ -1628,7 +1628,7 @@ guiTypes = {
 			#<--------------------- Planet Demographics --------------------------->
 			containerWindowType = {
 				name = "demographics_window"
-				position = { x = -10 y = 295 }
+				position = { x = -10 y = 195 }
 				size = { width = 420 height = -10 }
 				orientation = upper_right
 				origo = upper_right
@@ -1693,7 +1693,7 @@ guiTypes = {
 				smoothListboxType = {
 					name = "demographics_list"
 					position = { x = 10 y = 45 }
-					size = { x = 400 y = 240 }
+					size = { x = 400 y = 180 }
 					scrollbarType = "standardlistbox_slider_thick"
 					borderSize = { x = 0 y = 0 }
 					offset = { x = -3 y = 0 }
@@ -1764,7 +1764,7 @@ guiTypes = {
 			#<--------------------- Planetary Ascension --------------------------->
 			containerWindowType = {
 				name = "ascension_info"
-				size = { width = 420 height = 190 }
+				size = { width = 420 height = 90 }
 				position = { x = -10 y = 95 }
 				orientation = upper_right
 				origo = upper_right
@@ -1830,8 +1830,8 @@ guiTypes = {
 					font = "font_text_14"
 					text = "PLANET_ASCENSION_TEXT_NONE"
 					position = { x = 10 y = 50 }
-					maxWidth = 400
-					maxHeight = 86
+					maxWidth = 200
+					maxHeight = 36
 					fixedSize = yes
 					format = left
 					scrollbarType = "standardlistbox_slider_thick_small"
@@ -1946,7 +1946,7 @@ guiTypes = {
 			smoothListboxType = {
 				name = "pop_categories_list" # Uses planet_pop_category_entry
 				position = { x = 20 y = 112 }
-				size = { x = 860 y = 528 }
+				size = { x = 860 y = 358 }
 				scrollbarType = "standardlistbox_slider_thick"
 				borderSize = { x = 0 y = 5 }
 				offset = { x = -3 y = 0 }
@@ -2439,7 +2439,7 @@ guiTypes = {
 					smoothListBoxType = {
 						name = "armies_list"
 						position = { x = 10 y = 10 }
-						size = { x = 366 y = 408 }
+						size = { x = 366 y = 238 }
 						borderSize = { x = 0 y = 0 }
 						spacing = 2
 						scrollbarType = "standardlistbox_slider_thick"
