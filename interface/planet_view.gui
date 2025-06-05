@@ -1,8 +1,8 @@
 # sidebar default list
-@sidebar_list_h = 810
-@sidebar_list_h_1440 = 950
-@sidebar_list_h_construction = 770
-@sidebar_list_h_construction_1440 = 910
+@sidebar_list_h = 640
+@sidebar_list_h_1440 = 780
+@sidebar_list_h_construction = 600
+@sidebar_list_h_construction_1440 = 740
 @sidebar_w = 450
 @sidebar_inner_w = 430
 @sidebar_inner_button_w = 432
@@ -2559,7 +2559,7 @@ guiTypes = {
 					smoothListBoxType = {
 						name = "build_queue"
 						position = { x = 5 y = 5 }
-						size = { x = 240 y = 331 }
+						size = { x = 240 y = 161 }
 						borderSize = { x = 0 y = 0 }
 						spacing = 2
 						scrollbarType = "standardlistbox_slider_thick"
